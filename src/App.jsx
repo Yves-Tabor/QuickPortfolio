@@ -5,6 +5,20 @@ function App() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  // SEO: Set document title and meta description
+  useEffect(() => {
+    document.title = 'Yves Tabor - Junior Frontend Developer | Portfolio';
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.content = 'Yves Tabor - Junior Frontend Developer passionate about creating beautiful, responsive web experiences with modern technologies.';
+    } else {
+      const meta = document.createElement('meta');
+      meta.name = 'description';
+      meta.content = 'Yves Tabor - Junior Frontend Developer passionate about creating beautiful, responsive web experiences with modern technologies.';
+      document.head.appendChild(meta);
+    }
+  }, []);
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
