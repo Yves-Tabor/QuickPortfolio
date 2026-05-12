@@ -1,7 +1,5 @@
 import React, { useState, useEffect, memo } from 'react';
 import './App.css';
-
-// Error Boundary Component
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
