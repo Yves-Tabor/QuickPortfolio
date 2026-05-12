@@ -29,6 +29,11 @@ section > div > * {
   animation: fadeInUp 0.8s ease-out;
 }
 
+/* Page load animation */
+.page-load {
+  animation: fadeInUp 1s ease-out;
+}
+
 /* Hover effects for interactive elements */
 .transform-hover {
   transition: transform 0.3s ease;
