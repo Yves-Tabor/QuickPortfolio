@@ -75,7 +75,7 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-bold text-white">
-              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">YT</span>
+              <span className="bg-gradient-to-r from-indigo-400 to-blue-400 bg-clip-text text-transparent">YT</span>
             </div>
             
                         <div className="hidden md:flex space-x-8">
