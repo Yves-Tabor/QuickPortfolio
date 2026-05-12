@@ -202,13 +202,13 @@ function App() {
               I'm always interested in hearing about new opportunities and exciting projects.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="mailto:your.email@example.com" className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 text-center">
+              <a href="mailto:your.email@example.com" className="px-6 py-3 bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-lg font-semibold hover:from-indigo-600 hover:to-blue-600 transition-all duration-300 text-center">
                 Email Me
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="px-6 py-3 border border-purple-400 text-purple-400 rounded-full font-semibold hover:bg-purple-400 hover:text-white transition-all duration-300 text-center">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="px-6 py-3 border border-indigo-400 text-indigo-400 rounded-lg font-semibold hover:bg-indigo-400 hover:text-white transition-all duration-300 text-center">
                 GitHub
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="px-6 py-3 border border-purple-400 text-purple-400 rounded-full font-semibold hover:bg-purple-400 hover:text-white transition-all duration-300 text-center">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="px-6 py-3 border border-indigo-400 text-indigo-400 rounded-lg font-semibold hover:bg-indigo-400 hover:text-white transition-all duration-300 text-center">
                 LinkedIn
               </a>
             </div>
