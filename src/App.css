@@ -43,6 +43,17 @@ section > div > * {
   transform: translateY(-2px);
 }
 
+/* Focus styles for accessibility */
+button:focus-visible {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
+a:focus-visible {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
