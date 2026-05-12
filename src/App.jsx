@@ -40,7 +40,6 @@ function App() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  // SEO: Set document title and meta description
   useEffect(() => {
     document.title = 'Yves Tabor - Junior Frontend Developer | Portfolio';
     const metaDescription = document.querySelector('meta[name="description"]');
