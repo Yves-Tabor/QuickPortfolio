@@ -183,7 +183,7 @@ function App() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {['React', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Git', 'Responsive Design', 'UI/UX'].map((skill) => (
-              <div key={skill} className="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
+              <div key={skill} className="bg-white/10 backdrop-blur-lg rounded-lg p-6 border border-white/20 hover:bg-white/20 transition-all duration-300">
                 <h3 className="text-white font-semibold text-center">{skill}</h3>
               </div>
             ))}
