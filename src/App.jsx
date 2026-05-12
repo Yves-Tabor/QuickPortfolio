@@ -78,8 +78,7 @@ function App() {
               <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">YT</span>
             </div>
             
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex space-x-8">
+                        <div className="hidden md:flex space-x-8">
               {navItems.map((item) => (
                 <button
                   key={item}
