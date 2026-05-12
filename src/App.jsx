@@ -139,13 +139,13 @@ function App() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={() => scrollToSection('Contact')}
-              className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105"
+              className="px-8 py-3 bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-lg font-semibold hover:from-indigo-600 hover:to-blue-600 transition-all duration-300"
             >
               Get In Touch
             </button>
             <button
               onClick={() => scrollToSection('About')}
-              className="px-8 py-3 border border-purple-400 text-purple-400 rounded-full font-semibold hover:bg-purple-400 hover:text-white transition-all duration-300"
+              className="px-8 py-3 border border-indigo-400 text-indigo-400 rounded-lg font-semibold hover:bg-indigo-400 hover:text-white transition-all duration-300"
             >
               Learn More
             </button>
