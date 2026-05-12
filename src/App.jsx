@@ -17,7 +17,7 @@ function App() {
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId.toLowerCase());
-    element?.scrollIntoView({ behavior: 'smooth' });
+    element?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     setMobileMenuOpen(false);
   };
 
