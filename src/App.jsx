@@ -91,7 +91,8 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
+      <main>
+        <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="text-center max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Hi, I'm <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">Yves Tabor</span>
@@ -182,6 +183,7 @@ function App() {
           </div>
         </div>
       </section>
+      </main>
 
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-white/10">
