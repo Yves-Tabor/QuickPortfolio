@@ -82,3 +82,30 @@ a:focus-visible {
 .spinner {
   animation: spin 1s linear infinite;
 }
+
+/* Print styles */
+@media print {
+  .bg-gradient-to-br {
+    background: white !important;
+  }
+  
+  .text-white {
+    color: black !important;
+  }
+  
+  .text-gray-300 {
+    color: #333 !important;
+  }
+  
+  .text-gray-400 {
+    color: #666 !important;
+  }
+  
+  nav, footer {
+    display: none !important;
+  }
+  
+  button {
+    display: none !important;
+  }
+}
