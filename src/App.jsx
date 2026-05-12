@@ -90,8 +90,7 @@ function App() {
               ))}
             </div>
 
-            {/* Mobile Menu Button */}
-            <button
+                        <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="md:hidden text-white"
               aria-label="Toggle mobile menu"
