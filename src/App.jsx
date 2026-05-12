@@ -104,8 +104,7 @@ function App() {
             </button>
           </div>
 
-          {/* Mobile Navigation */}
-          {mobileMenuOpen && (
+                    {mobileMenuOpen && (
             <div className="md:hidden mt-4 pb-4">
               {navItems.map((item) => (
                 <button
