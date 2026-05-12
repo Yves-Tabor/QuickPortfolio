@@ -150,8 +150,7 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="py-20 px-6">
+            <section id="about" className="py-20 px-6">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-4xl font-bold text-white text-center mb-12">
             About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Me</span>
